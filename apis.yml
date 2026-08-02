@@ -1,9 +1,27 @@
 aid: yeshid
 name: YeshID
-description: 'YeshID is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'YeshID is an AI-native workforce identity and access control platform that
+  helps IT and security teams understand, govern, and automate access across fragmented
+  SaaS apps, identity providers, OAuth grants, service accounts, non-human identities,
+  AI agents, app-local permissions, and lifecycle workflows. Rather than starting at
+  login, YeshID focuses on effective access — the roles, admin privileges, API tokens,
+  and SaaS-to-SaaS connections that people and machines actually hold — powering
+  onboarding/offboarding, access requests, access reviews, and remediation for SMB
+  and mid-market teams.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62aa4e62c969f32af9af25d2/66b1bf225a22b2297be4809a_logo-yeshid-cover-home.jpg
 url: https://raw.githubusercontent.com/api-evangelist/yeshid/refs/heads/main/apis.yml
+humanURL: https://www.yeshid.com
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cybersecurity
+- Identity and Access Management
+- Identity Governance
+- Workforce Identity
+- Access Management
+- Lifecycle Management
+- Non-Human Identity
+- SaaS
+- OAuth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://yeshid.com
+- type: Documentation
+  url: https://docs.yeshid.com
+- type: GettingStarted
+  url: https://docs.yeshid.com/articles/4837499964-getting-started-with-yeshid
+- type: Blog
+  url: https://www.yeshid.com/blog
+- type: Pricing
+  url: https://www.yeshid.com/pricing
+- type: SignUp
+  url: https://app.yeshid.com/signup
+- type: Support
+  url: https://www.yeshid.com/support
+- type: PrivacyPolicy
+  url: https://www.yeshid.com/privacy
+- type: TrustCenter
+  url: https://trust.yeshid.com
+- type: StatusPage
+  url: https://status.yeshid.com
+- type: LLMsTxt
+  url: llms/yeshid-llms.txt
+- type: DomainSecurity
+  url: security/yeshid-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
