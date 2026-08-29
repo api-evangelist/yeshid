@@ -8,6 +8,17 @@ description: 'YeshID is an AI-native workforce identity and access control platf
   and SaaS-to-SaaS connections that people and machines actually hold — powering
   onboarding/offboarding, access requests, access reviews, and remediation for SMB
   and mid-market teams.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
